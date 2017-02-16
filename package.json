@@ -36,5 +36,3 @@
     "webpack-dev-server": "^2.2.0-rc.0"
   }
 }
-
-// webpack-dev-server is served from memory but from hard drive
