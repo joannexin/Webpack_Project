@@ -45,6 +45,9 @@ module.exports = {
   	// a template because we want to some of the markups in our index.html
   	new HtmlWebpackPlugin({
   		template: 'src/index.html'
+  	}),
+  	new webpack.DefinePlugin({
+  		'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
   	})
   ]
 };
